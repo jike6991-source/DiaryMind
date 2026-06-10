@@ -1,0 +1,19 @@
+# ── 隐私数据:日记内容绝不上传 ──
+data/
+chroma_db/
+*.txt
+
+# ── 密钥:本地配置不上传 ──
+config.py
+
+# ── Python ──
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+.idea/
+!requirements.txt
